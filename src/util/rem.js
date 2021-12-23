@@ -4,7 +4,7 @@
  * @Author: guanxiaoxin
  * @Date: 2021-12-23 15:31:05
  * @LastEditors: guanxiaoxin
- * @LastEditTime: 2021-12-23 16:37:05
+ * @LastEditTime: 2021-12-23 17:53:07
  * @FilePath: /vueApp/src/util/rem.js
  */
 import Vue from 'vue'
@@ -40,3 +40,4 @@ let flexible = (window, document) => {
 }
 flexible(window, document)
 console.log('%c 🍺 document: ', 'font-size:20px;background-color: #93C0A4;color:#fff;', document);
+
