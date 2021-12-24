@@ -4,7 +4,7 @@
  * @Author: guanxiaoxin
  * @Date: 2021-12-23 16:29:38
  * @LastEditors: guanxiaoxin
- * @LastEditTime: 2021-12-23 18:43:00
+ * @LastEditTime: 2021-12-24 11:10:15
  * @FilePath: /vueApp/src/App.vue
 -->
 <template>
@@ -27,11 +27,7 @@ export default {
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  padding: 0;
+  margin: 0;
 }
 </style>

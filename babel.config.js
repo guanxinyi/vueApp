@@ -4,7 +4,7 @@
  * @Author: guanxiaoxin
  * @Date: 2021-12-23 16:25:21
  * @LastEditors: guanxiaoxin
- * @LastEditTime: 2021-12-23 16:56:26
+ * @LastEditTime: 2021-12-24 11:07:04
  * @FilePath: /vueApp/babel.config.js
  */
 module.exports = {
@@ -15,5 +15,12 @@ module.exports = {
     //   libraryDirectory: 'es',
     //   style: true
     // }, 'vant']
+  ],
+  plugins: [
+    ['import', {
+      libraryName: 'vant',
+      libraryDirectory: 'es',
+      style: true
+    }, 'vant']
   ]
 }

@@ -4,7 +4,7 @@
  * @Author: guanxiaoxin
  * @Date: 2021-12-23 17:46:06
  * @LastEditors: guanxiaoxin
- * @LastEditTime: 2021-12-23 20:17:28
+ * @LastEditTime: 2021-12-24 14:25:34
  * @FilePath: /vueApp/src/util/permission.js
  */
 // 跳转无权限
@@ -20,6 +20,7 @@ import { isApp } from '@/util/outFunction'
 import InvalidRoutes from '@/router/invalid.router.js'
 import LoginRoutes from '../router/login.router'
 import CusRoutes from '../router/cus.router'
+import canvasBackGround from './background'
 
 // 判断是否是 app
 const DEVICE_APP = isApp()
@@ -28,6 +29,7 @@ if (!DEVICE_APP) {
 } else if (DEVICE_APP && !sessionStorage.token) {
   router.addRoutes(LoginRoutes)
 } else if (DEVICE_APP && sessionStorage.token) {
+  canvasBackGround()
   router.addRoutes(CusRoutes)
 }
 
