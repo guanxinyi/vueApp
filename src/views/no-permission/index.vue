@@ -4,7 +4,7 @@
  * @Autor: Terry
  * @Date: 2020-10-06 09:20:41
  * @LastEditors: guanxiaoxin
- * @LastEditTime: 2021-12-23 18:43:30
+ * @LastEditTime: 2021-12-27 14:37:05
 -->
 <template>
   <div class="no_permission_warp">
@@ -36,7 +36,7 @@ export default {
     this.title = "你的账号未开通权限，请联系管理员";
     this.isUpdateToken = 0;
     if (this.$route.query.titleType === "app") {
-      this.title = "请在E销APP客户端打开链接";
+      this.title = "请在APP客户端打开链接";
     }
     if (this.$route.query.titleType === "webToken") {
       this.isUpdateToken = 1;

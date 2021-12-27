@@ -14,12 +14,16 @@ export default {
     },
     //*****注册用户的实行方法*****
     LoginAction() {
-      this.checkForm() && this.axiosLoginUser()
+      this.checkForm() && this.axioLoginUser()
     },
     //*******axios注册用户方法*******
     axioLoginUser() {
       //先把按钮进行loading状态，防止重复提交
       this.openLoading = true
+      sessionStorage.token = '123333'
+      // setTimeout(() => {
+      //   this.$router.push({ path: '/ShoppingMall' })
+      // }, 1500)
 
       // axios({
       //   url: url.registerUser,

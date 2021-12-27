@@ -4,7 +4,7 @@
  * @Author: guanxiaoxin
  * @Date: 2021-12-23 16:29:38
  * @LastEditors: guanxiaoxin
- * @LastEditTime: 2021-12-24 11:10:15
+ * @LastEditTime: 2021-12-27 14:37:58
  * @FilePath: /vueApp/src/App.vue
 -->
 <template>
@@ -29,5 +29,6 @@ export default {
 #app {
   padding: 0;
   margin: 0;
+  font-size: 0.28rem;
 }
 </style>

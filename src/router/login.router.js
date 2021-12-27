@@ -4,13 +4,13 @@
  * @Author: guanxiaoxin
  * @Date: 2021-12-23 16:53:07
  * @LastEditors: guanxiaoxin
- * @LastEditTime: 2021-12-23 19:06:49
+ * @LastEditTime: 2021-12-27 14:48:14
  * @FilePath: /vueApp/src/router/login.router.js
  */
 
 const LoginRoutes = [
   {
-    path: '/',
+    path: '*',
     redirect: '/login',
   },
   {
