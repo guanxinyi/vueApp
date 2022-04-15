@@ -4,7 +4,7 @@
  * @Author: guanxiaoxin
  * @Date: 2021-12-23 17:46:06
  * @LastEditors: guanxiaoxin
- * @LastEditTime: 2022-04-15 14:50:43
+ * @LastEditTime: 2022-04-15 14:53:19
  * @FilePath: /vueApp/src/util/permission.js
  */
 // 跳转无权限
@@ -32,6 +32,8 @@ if (!DEVICE_APP) {
   canvasBackGround()
   router.addRoutes(CusRoutes)
 }
+console.log('%c 🍑 from: ', 'font-size:20px;background-color: #4b4b4b;color:#fff;', 'from');
+
 
 console.log('%c 🍑 from: ', 'font-size:20px;background-color: #4b4b4b;color:#fff;', '121212');
 

@@ -89,9 +89,9 @@ export default {
                     required
                 />
                 <div class="register-button">
+                    <input type="file"></input>
                     <van-button type="primary" onClick={() => this.LoginAction()} loading={this.openLoading} size="large">登录</van-button>
                 </div>
-                <div>12112</div>
                 {/* <span>注： 无账号的登陆自己注册一个</span> */}
             </div>
 
